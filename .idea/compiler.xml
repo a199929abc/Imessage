@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="servertest" />
+        <module name="inessage-netty" />
         <module name="Imessage" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Imessage-netty" target="1.7" />
+      <module name="imooc-muxin-mybatis" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
